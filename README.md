@@ -1,13 +1,10 @@
 # macOS Look auf dem XFCE-Desktop
 
 ## Installation von Programmen
+Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
 ```
 sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git engrampa
 sudo pacman -R xfce4-terminal mousepad
-```
-Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
-
-```
 sudo nano /etc/nanorc
 ```
 > Syntax-Highlighting aktivieren
@@ -89,6 +86,10 @@ cp Fonts/* /usr/share/fonts
 cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
+> GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/)
+> Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/)
+>        [OS-Catalina](https://www.pling.com/p/1309810/)
+
 
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
 ```
@@ -100,6 +101,7 @@ Installieren sie das WhiteSur-Thema für Firefox.
 ```
 cd WhiteSur-firefox-theme && bash install.sh && cd ..
 ```
+> von [VinceLiuice](https://github.com/vinceliuice/WhiteSur-firefox-theme)
 
 Erstellen sie einen Rand von 16p im Terminal.
 ```
