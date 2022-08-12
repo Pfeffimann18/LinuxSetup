@@ -3,9 +3,13 @@
 ```
 sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git engrampa
 sudo pacman -R xfce4-terminal mousepad
+```
+Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
+
+```
 sudo nano /etc/nanorc
 ```
-- danach Plank zum Autostart hinzufügen
+> Syntax-Highlighting aktivieren
 
 ## Touchpad - Tippen um zu Klicken
 ```
