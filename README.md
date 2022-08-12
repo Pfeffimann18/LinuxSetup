@@ -1,4 +1,4 @@
-## macOS Look auf dem XFCE-Desktop
+# macOS Look auf dem XFCE-Desktop
 ## Basic
 ```
 sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git ark
@@ -12,14 +12,14 @@ sudo nano /etc/nanorc
 cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 ```
 - zum aktivieren des Linksklick durch tippn auf dem Touchpad
-- 
+
 ## rEFInd - Bootmanager
 ```
 refind-install
 sudo cp -r refind /boot/efi/EFI
 ```
 
-## YAY
+## YAY - AUR_Helper
 ```
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay
@@ -50,7 +50,7 @@ cp .zshrc ~
 source ~/.zshrc
 ```
 
-## Purify
+## Purify Themen
 ```
 mkdir ~/.local/ranger/colorschemes
 mkdir ~/.local/tilix/schemes
@@ -59,7 +59,7 @@ cp Purfiy/default.py ~/.local/ranger/colorschemes/		# Ranger
 cp Purify/purify.json ~/.local/tilix/schemes			# Tilix
 ```
 
-## Themes
+## Themen
 ```
 mkdir ~/.themes && cp -r Themes/* ~/.themes
 mkdir ~/.icons && cp -r Icons/* ~/.icons
@@ -69,7 +69,7 @@ cd WhiteSur-firefox-theme && bash install.sh && cd ..
 cp gtk.css ~/.config/gtk-3.0/
 ```
 
-## LY
+## LY - Displaymanager
 ```
 yay -S ly
 sudo systemctl disable lightdm.service
