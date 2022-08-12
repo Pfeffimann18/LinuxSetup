@@ -87,6 +87,7 @@ cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
 > GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/)
+> 
 > Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/)
 >        [OS-Catalina](https://www.pling.com/p/1309810/)
 
