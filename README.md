@@ -56,7 +56,7 @@ source ~/.zshrc
 ```
 
 ## Purify Farbschemen
-> https://github.com/kyoz/purify
+> [Purify](https://github.com/kyoz/purify0) von Kyoz.
 
 Farbschemen für ZSH, Ranger und Tilix.
 ```
