@@ -1,13 +1,13 @@
 # macOS Look auf dem XFCE-Desktop
 ## Basic
 ```
-sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git ark
+sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git engrampa
 sudo pacman -R xfce4-terminal mousepad
 sudo nano /etc/nanorc
 ```
 - danach Plank zum Autostart hinzufügen
 
-## Touchpad Tap to Click
+## Touchpad - Tippen um zu Klicken
 ```
 cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 ```
@@ -38,6 +38,7 @@ sudo pacman -S appmenu-gtk-module
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ```
+- AppMenü zu Leiste hinzufügen
 
 ## ZSH and Oh My ZSH
 ```
