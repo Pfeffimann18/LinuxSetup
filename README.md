@@ -1,5 +1,5 @@
 # macOS Look auf dem XFCE-Desktop
-## Basic
+## Installation von Programmen
 ```
 sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git engrampa
 sudo pacman -R xfce4-terminal mousepad
@@ -51,7 +51,8 @@ cp .zshrc ~
 source ~/.zshrc
 ```
 
-## Purify Themen
+## Purify Farbschemen
+Farbschemen für ZSH, Ranger und Tilix von
 ```
 mkdir ~/.local/ranger/colorschemes
 mkdir ~/.local/tilix/schemes
