@@ -80,10 +80,12 @@ cp Fonts/* /usr/share/fonts
 cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
-> GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/) <br />
-> Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/) <br />     [OS-Catalina](https://www.pling.com/p/1309810/)
-
-
+> GTK: <br />
+> - [BigSur-XFCE](https://www.pling.com/p/1405530/) <br />
+>Icons: <br />
+> - [Mkos-BigSur](https://www.pling.com/p/1405530/) <br />
+> - [OS-Catalina](https://www.pling.com/p/1309810/) 
+<br />
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
 ```
 mkdir /usr/share/backgrounds/macOS
@@ -100,7 +102,7 @@ Erstellen sie einen Rand von 16p im Terminal.
 ```
 cp gtk.css ~/.config/gtk-3.0/
 ```
-
+<br />
 
 ## LY - Displaymanager
 LY ist ein schlichter Displaymanager im Konsolen-Design.
