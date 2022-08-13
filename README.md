@@ -1,5 +1,4 @@
-# macOS Look auf dem XFCE-Desktop
-
+# macOS Look auf dem XFCE-Desktop <br />
 ## Installation von Programmen
 Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
 ```
@@ -7,23 +6,21 @@ sudo pacman -Syyu firefox plank zsh ranger tilix refind nautilus geany git engra
 sudo pacman -R xfce4-terminal mousepad
 sudo nano /etc/nanorc
 ```
-> Syntax-Highlighting aktivieren
-
+> Syntax-Highlighting aktivieren 
+<br />
 
 ## Touchpad - Tippen um zu Klicken
 ```
 cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 ```
-- zum Aktivieren des Linksklick durch tippn auf dem Touchpad
-
+- zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
 
 ## rEFInd - Bootmanager
 ```
 refind-install
 sudo cp -r refind /boot/efi/EFI
 ```
-Installiert das macOS-Thema für den rEFInd-Bootmanager
-
+Installiert das macOS-Thema für den rEFInd-Bootmanager. <br /> <br />
 
 ## YAY - AUR_Helper
 ```
@@ -35,8 +32,8 @@ makepkg -si
 sudo rm -r yay/
 cd ~
 yay -S pamac
-```
-
+``` 
+<br /> <br />
 
 ## Vala Panel
 ```
@@ -46,8 +43,7 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ```
 - AppMenü zu Leiste hinzufügen
-
-
+<br /> <br />
 ## ZSH and Oh My ZSH
 ```
 chsh -s /usr/bin/zsh
@@ -58,8 +54,7 @@ cp Plugins/zsh* ~/.oh-my-zsh/custom/plugins
 cp .zshrc ~
 source ~/.zshrc
 ```
-
-
+<br /> <br />
 ## Purify Farbschemen
 > [Purify](https://github.com/kyoz/purify0) von Kyoz.
 
@@ -77,8 +72,7 @@ cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	# ZSH
 cp Purfiy/default.py ~/.local/ranger/colorschemes/		# Ranger
 cp Purify/purify.json ~/.local/tilix/schemes			# Tilix
 ```
-
-
+<br /> <br />
 ## Themen
 Kopieren sie die Themen, Icon-Pakete und Fonts in die Systemverzeichnisse. Nutzen sie wenn nötig `sudo`.
 ```
@@ -88,8 +82,7 @@ cp -r Icons/* /usr/share/icons
 ```
 > GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/)
 > 
-> Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/)
->        [OS-Catalina](https://www.pling.com/p/1309810/)
+> Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/) <br /> [OS-Catalina](https://www.pling.com/p/1309810/)
 
 
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
