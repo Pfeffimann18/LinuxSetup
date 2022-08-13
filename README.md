@@ -56,7 +56,7 @@ source ~/.zshrc
 ```
 <br /> <br />
 ## Purify Farbschemen
-> [Purify](https://github.com/kyoz/purify0) von Kyoz.
+> [Purify](https://github.com/kyoz/purify0) von Kyoz
 
 Farbschemen für ZSH, Ranger und Tilix.
 
@@ -80,8 +80,7 @@ cp Fonts/* /usr/share/fonts
 cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
-> GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/)
-> 
+> GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/) <br />
 > Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/) <br /> [OS-Catalina](https://www.pling.com/p/1309810/)
 
 
