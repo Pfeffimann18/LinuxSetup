@@ -69,8 +69,8 @@ mkdir ~/.local/tilix/schemes
 Kopieren sie nun die Datein in ihr Verzeichnisse.
 ```
 cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	# ZSH
-cp Purfiy/default.py ~/.local/ranger/colorschemes/		# Ranger
-cp Purify/purify.json ~/.local/tilix/schemes			# Tilix
+cp Purfiy/default.py ~/.local/ranger/colorschemes/	  	# Ranger
+cp Purify/purify.json ~/.local/tilix/schemes			      # Tilix
 ```
 <br /> <br />
 ## Themen
@@ -81,7 +81,7 @@ cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
 > GTK: [BigSur-XFCE](https://www.pling.com/p/1405530/) <br />
-> Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/) <br /> [OS-Catalina](https://www.pling.com/p/1309810/)
+> Icons: [Mkos-BigSur](https://www.pling.com/p/1405530/) <br />     [OS-Catalina](https://www.pling.com/p/1309810/)
 
 
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
