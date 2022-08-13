@@ -80,10 +80,8 @@ cp Fonts/* /usr/share/fonts
 cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
-> GTK: <br />
-> - [BigSur-XFCE](https://www.pling.com/p/1405530/) <br />
->Icons: <br />
-> - [Mkos-BigSur](https://www.pling.com/p/1405530/) <br />
+> - [BigSur-XFCE](https://www.pling.com/p/1405530/)
+> - [Mkos-BigSur](https://www.pling.com/p/1405530/)
 > - [OS-Catalina](https://www.pling.com/p/1309810/) 
 <br />
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
@@ -91,7 +89,7 @@ Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie 
 mkdir /usr/share/backgrounds/macOS
 cp Wallpaper/* /usr/share/backgrounds/macOS
 ```
-
+<br />
 Installieren sie das WhiteSur-Thema für Firefox.
 ```
 cd WhiteSur-firefox-theme && bash install.sh && cd ..
