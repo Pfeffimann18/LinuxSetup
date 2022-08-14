@@ -85,12 +85,14 @@ cp -r Icons/* /usr/share/icons
 > - [BigSur-Icons](https://github.com/zayronxio/Mkos-Big-Sur)
 > - [Catalina-Icons](https://github.com/zayronxio/Os-Catalina-icons) 
 <br />
+
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
 ```
 mkdir /usr/share/backgrounds/macOS
 cp Wallpaper/* /usr/share/backgrounds/macOS
 ```
 <br />
+
 Installieren sie das WhiteSur-Thema für Firefox.
 ```
 cd WhiteSur-firefox-theme && bash install.sh && cd ..
