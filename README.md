@@ -23,6 +23,17 @@ yay -S pamac
 ``` 
 <br /> <br />
 
+## ZSH and Oh My ZSH
+```
+chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh
+zsh
+bash install.sh
+cp -r Plugins/* ~/.oh-my-zsh/custom/plugins
+cp .zshrc ~
+source ~/.zshrc
+```
+<br /> <br />
 
 ## Vala Panel
 ```
@@ -66,34 +77,6 @@ cp gtk.css ~/.config/gtk-3.0/
 ```
 <br />
 
-
-## ZSH and Oh My ZSH
-```
-chsh -s /usr/bin/zsh
-sudo chsh -s /usr/bin/zsh
-zsh
-bash install.sh
-cp -r Plugins/* ~/.oh-my-zsh/custom/plugins
-cp .zshrc ~
-source ~/.zshrc
-```
-<br /> <br />
-
-
-## Touchpad - Tippen um zu Klicken
-```
-sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
-```
-- zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
-
-## rEFInd - Bootmanager
-```
-refind-install
-sudo cp -r refind /boot/efi/EFI
-```
-Installiert das macOS-Thema für den rEFInd-Bootmanager. <br /> <br />
-
-
 ## Purify Farbschemen
 > [Purify](https://github.com/kyoz/purify0) von Kyoz
 
@@ -112,6 +95,19 @@ cp Purfiy/default.py ~/.local/ranger/colorschemes/	  	  # Ranger
 cp Purify/purify.json ~/.local/tilix/schemes			        # Tilix
 ```
 <br /> <br />
+
+## Touchpad - Tippen um zu Klicken
+```
+sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
+```
+- zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
+
+## rEFInd - Bootmanager
+```
+refind-install
+sudo cp -r refind /boot/efi/EFI
+```
+Installiert das macOS-Thema für den rEFInd-Bootmanager. <br /> <br />
 
 
 ## LY - Displaymanager
