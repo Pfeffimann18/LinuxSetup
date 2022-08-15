@@ -85,10 +85,9 @@ cd -
 > - XFCE: [macOS Light](https://github.com/zayronxio/Mkosbigsur-gtk), [macOS Dark](https://github.com/B00merang-Project/macOS-Dark), [BigSur-Icons](https://github.com/zayronxio/Mkos-Big-Sur), [Catalina-Icons](https://github.com/zayronxio/Os-Catalina-icons), [Borealis-Cursors](https://github.com/alvatip/Borealis-cursors)
 <br />
 
-Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
+Kopieren sie die Hintergünde in den `backgrounds`-Ordner.
 ```
-mkdir /usr/share/backgrounds/macOS
-cp Wallpaper/* /usr/share/backgrounds/macOS
+cp Wallpaper/* /usr/share/backgrounds/
 ```
 <br />
 
