@@ -50,7 +50,7 @@ chsh -s /usr/bin/zsh
 sudo chsh -s /usr/bin/zsh
 zsh
 bash install.sh
-cp Plugins/zsh* ~/.oh-my-zsh/custom/plugins
+cp -r Plugins/* ~/.oh-my-zsh/custom/plugins
 cp .zshrc ~
 source ~/.zshrc
 ```
