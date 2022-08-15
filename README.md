@@ -11,7 +11,7 @@ sudo nano /etc/nanorc
 
 ## Touchpad - Tippen um zu Klicken
 ```
-cp 30-touchpad.conf /etc/X11/xorg.conf.d/
+sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 ```
 - zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
 
