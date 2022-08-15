@@ -7,21 +7,9 @@ sudo pacman -R xfce4-terminal mousepad
 sudo nano /etc/nanorc
 ```
 > Syntax-Highlighting aktivieren 
-<br />
 
-## Touchpad - Tippen um zu Klicken
-```
-sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
-```
-- zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
 
-## rEFInd - Bootmanager
-```
-refind-install
-sudo cp -r refind /boot/efi/EFI
-```
-Installiert das macOS-Thema für den rEFInd-Bootmanager. <br /> <br />
-
+<br /> </br>
 ## YAY - AUR_Helper
 ```
 cd /opt/
@@ -35,6 +23,7 @@ yay -S pamac
 ``` 
 <br /> <br />
 
+
 ## Vala Panel
 ```
 yay -S vala-panel-appmenu-common-git vala-panel-appmenu-registrar-git vala-panel-appmenu-xfce-git
@@ -44,42 +33,16 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ```
 - AppMenü zu Leiste hinzufügen
 <br /> <br />
-## ZSH and Oh My ZSH
-```
-chsh -s /usr/bin/zsh
-sudo chsh -s /usr/bin/zsh
-zsh
-bash install.sh
-cp -r Plugins/* ~/.oh-my-zsh/custom/plugins
-cp .zshrc ~
-source ~/.zshrc
-```
-<br /> <br />
-## Purify Farbschemen
-> [Purify](https://github.com/kyoz/purify0) von Kyoz
 
-Farbschemen für ZSH, Ranger und Tilix.
 
-Erstellen der passenden Verzeichnisse für Ranger und Tilix 
-```
-mkdir ~/.config/ranger/colorschemes
-mkdir ~/.config/tilix/schemes
-```
-
-Kopieren sie nun die Datein in ihr Verzeichnisse.
-```
-cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	  # ZSH
-cp Purfiy/default.py ~/.local/ranger/colorschemes/	  	  # Ranger
-cp Purify/purify.json ~/.local/tilix/schemes			        # Tilix
-```
-<br /> <br />
 ## Themen
 Kopieren sie die Themen, Icon-Pakete und Fonts in die Systemverzeichnisse. Nutzen sie wenn nötig `sudo`.
 ```
 sudo cp Fonts/* /usr/share/fonts
-cp -r Themen/XFCE/* /usr/share/themes
-cp -r Icons/macOS* /usr/share/icons
-cd Icons/Borealis-cursors  && sudo bash install.sh
+sudo cp -r Themen/* /usr/share/themes
+sudo cp -r Icons/* /usr/share/icons
+cd Icons/Borealis-cursors
+sudo bash install.sh
 cd -
 ```
 > - XFCE: [macOS Light](https://github.com/zayronxio/Mkosbigsur-gtk), [macOS Dark](https://github.com/B00merang-Project/macOS-Dark), [BigSur-Icons](https://github.com/zayronxio/Mkos-Big-Sur), [Catalina-Icons](https://github.com/zayronxio/Os-Catalina-icons), [Borealis-Cursors](https://github.com/alvatip/Borealis-cursors)
@@ -102,6 +65,54 @@ Erstellen sie einen Rand von 16p im Terminal.
 cp gtk.css ~/.config/gtk-3.0/
 ```
 <br />
+
+
+## ZSH and Oh My ZSH
+```
+chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh
+zsh
+bash install.sh
+cp -r Plugins/* ~/.oh-my-zsh/custom/plugins
+cp .zshrc ~
+source ~/.zshrc
+```
+<br /> <br />
+
+
+## Touchpad - Tippen um zu Klicken
+```
+sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
+```
+- zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
+
+## rEFInd - Bootmanager
+```
+refind-install
+sudo cp -r refind /boot/efi/EFI
+```
+Installiert das macOS-Thema für den rEFInd-Bootmanager. <br /> <br />
+
+
+## Purify Farbschemen
+> [Purify](https://github.com/kyoz/purify0) von Kyoz
+
+Farbschemen für ZSH, Ranger und Tilix.
+
+Erstellen der passenden Verzeichnisse für Ranger und Tilix 
+```
+mkdir ~/.config/ranger/colorschemes
+mkdir ~/.config/tilix/schemes
+```
+
+Kopieren sie nun die Datein in ihr Verzeichnisse.
+```
+cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	  # ZSH
+cp Purfiy/default.py ~/.local/ranger/colorschemes/	  	  # Ranger
+cp Purify/purify.json ~/.local/tilix/schemes			        # Tilix
+```
+<br /> <br />
+
 
 ## LY - Displaymanager
 LY ist ein schlichter Displaymanager im Konsolen-Design.
