@@ -62,8 +62,8 @@ Farbschemen für ZSH, Ranger und Tilix.
 
 Erstellen der passenden Verzeichnisse für Ranger und Tilix 
 ```
-mkdir ~/.local/ranger/colorschemes
-mkdir ~/.local/tilix/schemes
+mkdir ~/.config/ranger/colorschemes
+mkdir ~/.config/tilix/schemes
 ```
 
 Kopieren sie nun die Datein in ihr Verzeichnisse.
@@ -76,7 +76,7 @@ cp Purify/purify.json ~/.local/tilix/schemes			        # Tilix
 ## Themen
 Kopieren sie die Themen, Icon-Pakete und Fonts in die Systemverzeichnisse. Nutzen sie wenn nötig `sudo`.
 ```
-cp Fonts/* /usr/share/fonts
+sudo cp Fonts/* /usr/share/fonts
 cp -r Themen/XFCE/* /usr/share/themes
 cp -r Icons/macOS* /usr/share/icons
 cd Icons/Borealis-cursors  && sudo bash install.sh
@@ -87,7 +87,7 @@ cd -
 
 Kopieren sie die Hintergünde in den `backgrounds`-Ordner.
 ```
-cp Wallpaper/* /usr/share/backgrounds/
+sudo cp Wallpaper/* /usr/share/backgrounds/
 ```
 <br />
 
