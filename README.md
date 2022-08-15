@@ -17,8 +17,8 @@ sudo git clone https://aur.archlinux.org/yay
 sudo chown -R leon:wheel yay/
 cd yay
 makepkg -si
-sudo rm -r yay/
 cd ~
+sudo rm -r yay/
 yay -S pamac
 ``` 
 <br /> <br />
