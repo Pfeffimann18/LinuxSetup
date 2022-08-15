@@ -80,10 +80,7 @@ cp Fonts/* /usr/share/fonts
 cp -r Themes/* /usr/share/themes
 cp -r Icons/* /usr/share/icons
 ```
-> - [macOS Light](https://github.com/zayronxio/Mkosbigsur-gtk)
-> - [macOS Dark](https://github.com/B00merang-Project/macOS-Dark)
-> - [BigSur-Icons](https://github.com/zayronxio/Mkos-Big-Sur)
-> - [Catalina-Icons](https://github.com/zayronxio/Os-Catalina-icons) 
+> - XFCE: [macOS Light](https://github.com/zayronxio/Mkosbigsur-gtk), [macOS Dark](https://github.com/B00merang-Project/macOS-Dark), [BigSur-Icons](https://github.com/zayronxio/Mkos-Big-Sur), [Catalina-Icons](https://github.com/zayronxio/Os-Catalina-icons), [Borealis-Cursors](https://github.com/alvatip/Borealis-cursors)
 <br />
 
 Erstellen sie einen Ordner für die spezifischen Hintergründe und kopieren sie diese dort hin.
