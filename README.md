@@ -10,7 +10,7 @@ sudo nano /etc/nanorc
 
 
 <br /> </br>
-## YAY - AUR_Helper
+## YAY - AUR-Helper
 ```
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay
