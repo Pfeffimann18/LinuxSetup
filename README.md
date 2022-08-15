@@ -1,4 +1,4 @@
-# macOS Look auf dem XFCE-Desktop <br />
+# Optisches Setup für Arch <br />
 ## Installation von Programmen
 Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
 ```
