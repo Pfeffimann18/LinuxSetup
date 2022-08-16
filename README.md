@@ -8,8 +8,8 @@ sudo nano /etc/nanorc
 ```
 > Syntax-Highlighting aktivieren 
 
-
 <br /> </br>
+
 ## YAY - AUR-Helper
 ```
 cd /opt/
@@ -48,9 +48,11 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ## Themen
 Kopieren sie die Themen, Icon-Pakete und Fonts in die Systemverzeichnisse. Nutzen sie wenn nötig `sudo`.
 ```
+mkdir ~/.themes
+mkdir ~/.icons
+cp -r Themen/* ~/.themes
+cp -r Icons/* ~/.icons
 sudo cp Fonts/* /usr/share/fonts
-sudo cp -r Themen/* /usr/share/themes
-sudo cp -r Icons/* /usr/share/icons
 cd Icons/Borealis-cursors
 sudo bash install.sh
 cd -
@@ -60,7 +62,7 @@ cd -
 
 Kopieren sie die Hintergünde in den `backgrounds`-Ordner.
 ```
-sudo cp Wallpaper/* /usr/share/backgrounds/
+sudo cp -r Wallpaper/* /usr/share/backgrounds/
 ```
 <br />
 
