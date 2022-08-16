@@ -92,8 +92,8 @@ mkdir ~/.config/tilix/schemes
 Kopieren sie nun die Datein in ihr Verzeichnisse.
 ```
 cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	  # ZSH
-cp Purfiy/default.py ~/.local/ranger/colorschemes/	  	  # Ranger
-cp Purify/purify.json ~/.local/tilix/schemes			        # Tilix
+cp Purfiy/default.py ~/.config/ranger/colorschemes/	  	  # Ranger
+cp Purify/purify.json ~/.config/tilix/schemes			  # Tilix
 ```
 <br /> <br />
 
@@ -108,7 +108,8 @@ sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 refind-install
 sudo cp -r refind /boot/efi/EFI
 ```
-Installiert das macOS-Thema für den rEFInd-Bootmanager. <br /> <br />
+Installiert das macOS-Thema für den rEFInd-Bootmanager.
+<br /> <br />
 
 
 ## LY - Displaymanager
