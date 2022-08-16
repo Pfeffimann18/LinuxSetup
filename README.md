@@ -19,7 +19,6 @@ cd yay
 makepkg -si
 cd ~
 sudo rm -r yay/
-yay -S pamac
 ``` 
 <br /> <br />
 
