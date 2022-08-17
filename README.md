@@ -44,7 +44,7 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 - AppMenü zu Leiste hinzufügen
 <br /> <br />
 
-
+ 
 ## Themen
 Kopieren sie die Themen, Icon-Pakete und Fonts in die Systemverzeichnisse. Nutzen sie wenn nötig `sudo`.
 ```
