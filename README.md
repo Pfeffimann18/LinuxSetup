@@ -36,9 +36,10 @@ source ~/.zshrc
 
 ## Vala Panel
 ```
+sudo pacman -S gobject-introspection
 yay -S vala-panel-appmenu-common-git vala-panel-appmenu-registrar-git 
 yay -S vala-panel-appmenu-xfce-git
-sudo pacman -S appmenu-gtk-module
+yay -S appmenu-gtk-module-git
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ```
