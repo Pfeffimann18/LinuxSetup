@@ -106,13 +106,13 @@ sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 - zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
 
 ## rEFInd - Bootmanager
-<a href="https://imgbox.com/V9FDFr5B" target="_blank"><img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" alt="image host"/></a
+<a href="https://imgbox.com/V9FDFr5B" target="_blank"><img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" alt="image host"/></a>
 ```
 refind-install
 sudo cp -r refind /boot/efi/EFI
 ```
 Installiert das macOS-Thema für den rEFInd-Bootmanager.
-<br /> <br />
+<br />
 
 
 ## LY - Displaymanager
