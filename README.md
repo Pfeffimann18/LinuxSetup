@@ -107,19 +107,33 @@ sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 <br />
 
 ## rEFInd - Bootmanager
+<<<<<<< HEAD
 Installiert das macOS-Thema für den rEFInd-Bootmanager.
 
 <a href="http://imgbox.com/V9FDFr5B" target="_blank"><img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" alt="imgbox"/></a>
+=======
+<a href="https://imgbox.com/V9FDFr5B" target="_blank"><img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" alt="image host"/></a>
+>>>>>>> 3fb856f356c1d0ea681b316a2e8c4c8456af1ace
 ```
 refind-install
 sudo cp -r refind /boot/efi/EFI
 ```
+<<<<<<< HEAD
 <br />
+=======
+Installiert das macOS-Thema für den rEFInd-Bootmanager.
+<br />
+
+>>>>>>> 3fb856f356c1d0ea681b316a2e8c4c8456af1ace
 
 ## LY - Displaymanager
 LY ist ein schlichter Displaymanager im Konsolen-Design.
 
+<<<<<<< HEAD
 <a href="http://imgbox.com/ahK81Qtk" target="_blank"><img src="https://thumbs2.imgbox.com/33/8e/ahK81Qtk_t.png" alt="imgbox"/></a>
+=======
+<a href="https://imgbox.com/ahK81Qtk" target="_blank"><img src="https://thumbs2.imgbox.com/33/8e/ahK81Qtk_t.png" alt="image host"/></a>
+>>>>>>> 3fb856f356c1d0ea681b316a2e8c4c8456af1ace
 ```
 yay -S ly
 sudo systemctl disable lightdm.service
