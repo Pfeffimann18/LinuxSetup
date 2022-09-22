@@ -8,7 +8,7 @@ sudo nano /etc/nanorc
 ```
 > Syntax-Highlighting aktivieren 
 
-<br /> </br>
+<br />
 
 ## YAY - AUR-Helper
 ```
@@ -20,7 +20,7 @@ makepkg -si
 cd ~
 sudo rm -r yay/
 ``` 
-<br /> <br />
+<br />
 
 ## ZSH and Oh My ZSH
 ```
@@ -32,7 +32,7 @@ cp -r Plugins/* ~/.oh-my-zsh/custom/plugins
 cp .zshrc ~
 source ~/.zshrc
 ```
-<br /> <br />
+<br />
 
 ## Vala Panel
 ```
@@ -44,8 +44,7 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ```
 - AppMenü zu Leiste hinzufügen
-<br /> <br />
-
+<br />
  
 ## Themen
 Kopieren sie die Themen, Icon-Pakete und Fonts in die Systemverzeichnisse. Nutzen sie wenn nötig `sudo`.
@@ -83,6 +82,7 @@ cp gtk.css ~/.config/gtk-3.0/
 ## Purify Farbschemen
 > [Purify](https://github.com/kyoz/purify0) von Kyoz
 
+<a href="https://imgbox.com/FVl9f8Ce" target="_blank"><img src="https://thumbs2.imgbox.com/4e/06/FVl9f8Ce_t.png" alt="image host"/></a>
 Farbschemen für ZSH, Ranger und Tilix.
 
 Erstellen der passenden Verzeichnisse für Ranger und Tilix 
@@ -97,25 +97,29 @@ cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	  # ZSH
 cp Purfiy/default.py ~/.config/ranger/colorschemes/	  	  # Ranger
 cp Purify/purify.json ~/.config/tilix/schemes			  # Tilix
 ```
-<br /> <br />
+<br />
 
 ## Touchpad - Tippen um zu Klicken
 ```
 sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 ```
-- zum Aktivieren des Linksklick durch tippn auf dem Touchpad <br />
+- zum Aktivieren des Linksklick durch tippn auf dem Touchpad 
+<br />
 
 ## rEFInd - Bootmanager
+Installiert das macOS-Thema für den rEFInd-Bootmanager.
+
+<a href="http://imgbox.com/V9FDFr5B" target="_blank"><img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" alt="imgbox"/></a>
 ```
 refind-install
 sudo cp -r refind /boot/efi/EFI
 ```
-Installiert das macOS-Thema für den rEFInd-Bootmanager.
-<br /> <br />
-
+<br />
 
 ## LY - Displaymanager
 LY ist ein schlichter Displaymanager im Konsolen-Design.
+
+<a href="http://imgbox.com/ahK81Qtk" target="_blank"><img src="https://thumbs2.imgbox.com/33/8e/ahK81Qtk_t.png" alt="imgbox"/></a>
 ```
 yay -S ly
 sudo systemctl disable lightdm.service
