@@ -83,6 +83,7 @@ cp gtk.css ~/.config/gtk-3.0/
 > [Purify](https://github.com/kyoz/purify0) von Kyoz
 
 <a href="https://imgbox.com/FVl9f8Ce" target="_blank"><img src="https://thumbs2.imgbox.com/4e/06/FVl9f8Ce_t.png" alt="image host"/></a>
+
 Farbschemen für ZSH, Ranger und Tilix.
 
 Erstellen der passenden Verzeichnisse für Ranger und Tilix 
