@@ -82,9 +82,10 @@ cp gtk.css ~/.config/gtk-3.0/
 ## Purify Farbschemen
 > [Purify](https://github.com/kyoz/purify0) von Kyoz
 
-<a href="https://imgbox.com/FVl9f8Ce" target="_blank"><img src="https://thumbs2.imgbox.com/4e/06/FVl9f8Ce_t.png" alt="image host"/></a>
-
 Farbschemen für ZSH, Ranger und Tilix.
+<p align="center">
+  <img src="https://i.imgur.com/Pu3ffXL.png" width="900px">
+</p>
 
 Erstellen der passenden Verzeichnisse für Ranger und Tilix 
 ```
@@ -110,7 +111,10 @@ sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 ## rEFInd - Bootmanager
 Installiert den rEFInd-Bootmanager und das macOS-Thema.
 
-<a href="https://imgbox.com/V9FDFr5B" target="_blank"><img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" alt="image host"/></a>
+<p align="center">
+  <img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" width="900px">
+</p>
+
 ```
 refind-install
 sudo cp -r refind /boot/efi/EFI
@@ -120,7 +124,10 @@ sudo cp -r refind /boot/efi/EFI
 ## LY - Displaymanager
 LY ist ein schlichter Displaymanager im Konsolen-Design.
 
-<a href="https://imgbox.com/ahK81Qtk" target="_blank"><img src="https://thumbs2.imgbox.com/33/8e/ahK81Qtk_t.png" alt="image host"/></a>
+<p align="center">
+  <img src="https://thumbs2.imgbox.com/33/8e/ahK81Qtk_t.png" width="900px">
+</p>
+
 ```
 yay -S ly
 sudo systemctl disable lightdm.service
