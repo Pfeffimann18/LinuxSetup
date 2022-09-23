@@ -1,9 +1,0 @@
-[submodule "Icons/Mkos-Big-Sur"]
-	path = Icons/Mkos-Big-Sur
-	url = https://github.com/zayronxio/Mkos-Big-Sur.git
-[submodule "Icons/Os-Catalina-icons"]
-	path = Icons/Os-Catalina-icons
-	url = https://github.com/zayronxio/Os-Catalina-icons.git
-[submodule "Icons/Borealis-cursors"]
-	path = Icons/Borealis-cursors
-	url = https://github.com/alvatip/Borealis-cursors.git
