@@ -121,7 +121,7 @@ sudo cp -r refind /boot/efi/EFI
 ```
 <br />
 
-## LY - Displaymanager
+## [LY](https://github.com/fairyglade/ly) - Displaymanager
 LY ist ein schlichter Displaymanager im Konsolen-Design.
 
 <p align="center">
