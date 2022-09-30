@@ -79,8 +79,7 @@ cp gtk.css ~/.config/gtk-3.0/
 ```
 <br />
 
-## Purify Farbschemen
-> [Purify](https://github.com/kyoz/purify0) von Kyoz
+## [Purify](https://github.com/kyoz/purify0) Farbschemen
 
 Farbschemen für ZSH, Ranger und Tilix.
 <p align="center">
