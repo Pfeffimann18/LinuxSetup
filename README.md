@@ -1,4 +1,8 @@
 # Optisches Setup für Arch <br />
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Pfeffimann18/LinuxSetup)
+![GitHub repo size](https://img.shields.io/github/repo-size/Pfeffimann18/LinuxSetup)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/Pfeffimann18/LinuxSetup)
+![GitHub](https://img.shields.io/github/license/Pfeffimann18/LinuxSetup)
 ## Installation von Programmen
 Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
 ```
@@ -11,7 +15,7 @@ sudo nano /etc/nanorc
 <br />
 
 ## YAY - AUR-Helper
-```
+```bash
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay
 sudo chown -R leon:wheel yay/
