@@ -1,4 +1,4 @@
-# Optisches Setup für Arch <br />
+# Optisches Setup für XFCE <br />
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Pfeffimann18/LinuxSetup)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Pfeffimann18/LinuxSetup)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Pfeffimann18/LinuxSetup)
