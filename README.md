@@ -102,37 +102,3 @@ cp Purify/purify.zsh-theme ~/.oh-my-zsh/custom/themes/	  # ZSH
 cp Purfiy/default.py ~/.config/ranger/colorschemes/	  	  # Ranger
 cp Purify/purify.json ~/.config/tilix/schemes			  # Tilix
 ```
-<br />
-
-## Touchpad - Tippen um zu Klicken
-```
-sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
-```
-- zum Aktivieren des Linksklick durch tippn auf dem Touchpad 
-<br />
-
-## rEFInd - Bootmanager
-Installiert den rEFInd-Bootmanager und das macOS-Thema.
-
-<p align="center">
-  <img src="https://thumbs2.imgbox.com/4b/f5/V9FDFr5B_t.png" width="900px">
-</p>
-
-```
-refind-install
-sudo cp -r refind /boot/efi/EFI
-```
-<br />
-
-## [LY](https://github.com/fairyglade/ly) - Displaymanager
-LY ist ein schlichter Displaymanager im Konsolen-Design.
-
-<p align="center">
-  <img src="https://thumbs2.imgbox.com/33/8e/ahK81Qtk_t.png" width="900px">
-</p>
-
-```
-yay -S ly
-sudo systemctl disable lightdm.service
-sudo systemctl enable ly.service
-```
