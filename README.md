@@ -3,6 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Pfeffimann18/LinuxSetup)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Pfeffimann18/LinuxSetup)
 ![GitHub](https://img.shields.io/github/license/Pfeffimann18/LinuxSetup)
+</br>
+
 ## Installation von Programmen
 Die grundlegend wichtigsten Programme werden installiert. Unwichtige, vorinstallierte Programme werden gelöscht.
 ```
